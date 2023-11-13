@@ -1,0 +1,43 @@
+{
+  "name": "invoicetic/invoicetic",
+  "type": "library",
+  "license": "MIT",
+  "description": "invoice multi gateway",
+  "keywords": [],
+  "homepage": "https://github.com/invoicetic/invoicetic",
+  "authors": [
+    {
+      "name": "Gabriel Solomon",
+      "email": "hello@gabrielsolomon.ro"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Invoicetic\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Invoicetic\\Invoicetic\\Tests\\": "tests/src",
+      "Invoicetic\\Invoicetic\\Tests\\Fixtures\\": "tests/fixtures"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*",
+    "invoicetic/common": "dev-main"
+  },
+  "require-dev": {
+    "bytic/phpqatools": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "phpstan/extension-installer": true,
+      "ergebnis/composer-normalize": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "bytic/phpqatools": true
+    }
+  }
+}
