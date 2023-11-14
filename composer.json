@@ -37,7 +37,8 @@
       "phpstan/extension-installer": true,
       "ergebnis/composer-normalize": true,
       "dealerdirect/phpcodesniffer-composer-installer": true,
-      "bytic/phpqatools": true
+      "bytic/phpqatools": true,
+      "php-http/discovery": true
     }
   }
 }
