@@ -12,7 +12,7 @@ class Invoicetic
      *
      * @var GatewayFactory
      */
-    private static GatewayFactory $factory;
+    private static ?GatewayFactory $factory = null;
 
     /**
      * Get the gateway factory
